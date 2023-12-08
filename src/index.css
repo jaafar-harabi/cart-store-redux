@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0;
+  box-sizing: border-box;
+  
+  
+  
+}
+
+#dark{
+  background-color: #141414;
+  
+  color: white;
+}
+#light{
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+@media only screen and (max-width:1024px){
+  
+  .card-responsive{
+    width: 15rem !important;
+  }
+ .responsive{
+  margin-left: 15px !important
+ }
+}
